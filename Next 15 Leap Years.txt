@@ -1,0 +1,15 @@
+sy=int(input("enter the starting yr"))
+s=sy+60
+l=[]
+while(sy<=s):
+    l.append(int(sy))
+    sy=sy+1
+for i in l:
+    if i%4==0:
+        if i%100==0:
+            if i%400==0:
+                 print(i)
+        else:
+            print(i)
+        
+            
